@@ -52,7 +52,7 @@ bottoneInizioGioco.addEventListener("click", (event) => {
   document.getElementById("titolo").style.display = " none";
   document.getElementById("nrandom").style.display = " none";
   // al click del bottone parte un timer di 30 secondi
-  var timer = 3;
+  var timer = 30;
   var downloadTimer = setInterval(function () {
     document.getElementById("countdown").innerHTML = timer;
     timer -= 1;
