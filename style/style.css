@@ -1,3 +1,5 @@
-.disappear {
-  display: none;
+#zero,
+#countdown {
+  font-size: 150px;
+  margin-left: 50px;
 }
