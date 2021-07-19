@@ -75,8 +75,6 @@ var bottone3 = document.getElementById("bt3");
 var bottone4 = document.getElementById("bt4");
 var bottone5 = document.getElementById("bt5");
 
-// ! chiedo l'inserimento del 1° numero e lo inserisco in un array (numeriInseritiDaUtente)
-
 var numeriInseritiDaUtente = [];
 
 // ! evento al click del bottone ("bt1")
@@ -94,8 +92,6 @@ bottone1.addEventListener("click", (event) => {
   document.getElementById("bt2").style.display = "inline";
 });
 
-// ! chiedo l'inserimento del 2° numero e lo inserisco in un array (numeriInseritiDaUtente)
-
 // ! evento al click del bottone ("bt2")
 
 bottone2.addEventListener("click", (event) => {
@@ -110,8 +106,6 @@ bottone2.addEventListener("click", (event) => {
   document.getElementById("3numero").style.display = "inline";
   document.getElementById("bt3").style.display = "inline";
 });
-
-// ! chiedo l'inserimento del 3° numero e lo inserisco in un array (numeriInseritiDaUtente)
 
 // ! evento al click del bottone ("bt3")
 
@@ -128,8 +122,6 @@ bottone3.addEventListener("click", (event) => {
   document.getElementById("bt4").style.display = "inline";
 });
 
-// ! chiedo l'inserimento del 4° numero e lo inserisco in un array (numeriInseritiDaUtente)
-
 // ! evento al click del bottone ("bt4")
 
 bottone4.addEventListener("click", (event) => {
@@ -145,8 +137,6 @@ bottone4.addEventListener("click", (event) => {
   document.getElementById("bt5").style.display = "inline";
 });
 
-// ! chiedo l'inserimento del 5° numero e lo inserisco in un array (numeriInseritiDaUtente)
-
 // ! evento al click del bottone ("bt5")
 
 bottone5.addEventListener("click", (event) => {
@@ -155,7 +145,9 @@ bottone5.addEventListener("click", (event) => {
   document.getElementById("titolo5").style.display = "none";
   document.getElementById("5numero").style.display = "none";
   document.getElementById("bt5").style.display = "none";
+
   // ! confronto tra array nRandom e numeriInseritiDaUtente
+
   if (nRandom == numeriInseritiDaUtente) {
     alert("hai vinto");
   } else {
